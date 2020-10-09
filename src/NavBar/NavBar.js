@@ -53,7 +53,7 @@ export default function NavBar() {
     return (
         <React.Fragment >
             <CssBaseline />
-            <Toolbar id="back-to-top-anchor"  style={{ background: "rgb(128,128,128, 0)"}}>
+            <Toolbar id="back-to-top-anchor"  style={{ background: 'rgb(255,255,255, 0.65)', boxShadow: '0 0 5px 5px rgb(255,255,255, 0.65)'}}>
               <NavLinks  />
             </Toolbar>
             <ScrollTop>

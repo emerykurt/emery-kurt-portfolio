@@ -13,7 +13,6 @@ const useStyles = makeStyles({
 });
 
 const clickEvent = (input) => {
-    // debugger
     switch (input.currentTarget.innerText) {
         case "Github":
             console.log("Github")
@@ -45,6 +44,7 @@ export default function SocialLinks() {
         clickEvent(event)
       }}
       showLabels
+      style={{ background: 'rgb(255,255,255, 0.65)', boxShadow: '0 0 5px 5px rgb(255,255,255, 0.65)'}}
       className={classes.root}
     >
       <BottomNavigationAction label="LinkedIn" icon={<LinkedInIcon />} />

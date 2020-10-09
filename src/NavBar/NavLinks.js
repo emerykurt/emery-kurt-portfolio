@@ -6,7 +6,10 @@ import {NavLink} from 'react-router-dom';
 
 export default function NavLinks() {
   return (
-    <Breadcrumbs maxItems={2} aria-label="breadcrumb" style={{ background: "rgb(240,255,240)"}}>
+    <Breadcrumbs 
+    maxItems={2} 
+    aria-label="breadcrumb" 
+    style={{ background: 'rgb(255,255,255, 0.65)', boxShadow: '0 0 5px 5px rgb(255,255,255, 0.65)'}}>
       <NavLink to='/' color="inherit" href="#">
         Home
       </NavLink>
