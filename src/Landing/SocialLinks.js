@@ -53,31 +53,3 @@ export default function SocialLinks() {
     </BottomNavigation>
   );
 }
-
-
-
-{/* <BottomNavigation
-    value={value}
-    onChange={(event, newValue) => {
-    setValue(newValue);
-    }}
-    showLabels
-    style={{ background: 'rgb(255,255,255, 0.65)', boxShadow: '0 0 5px 5px rgb(255,255,255, 0.65)'}}
-    className={classes.root}
-    >
-    <a href='https://www.linkedin.com/in/emery-lumsden-ii-5b5b98b9/' 
-    target="_blank" 
-    rel="noopener noreferrer">
-        <BottomNavigationAction label="LinkedIn" icon={<LinkedInIcon />} />
-    </a>
-    <a href='https://github.com/emerykurt' 
-    target="_blank" 
-    rel="noopener noreferrer">
-        <BottomNavigationAction label="Github" icon={<GitHubIcon />} />
-    </a>
-    <a href='https://twitter.com/iLaugh_iLearn' 
-    target="_blank" 
-    rel="noopener noreferrer">
-        <BottomNavigationAction label="Twitter" icon={<TwitterIcon />} />
-    </a>
-    </BottomNavigation> */}
