@@ -7,12 +7,8 @@ import {NavLink} from 'react-router-dom';
 export default function NavLinks() {
   return (
     <Breadcrumbs maxItems={2} aria-label="breadcrumb" style={{ background: "rgb(240,255,240)"}}>
-      
       <NavLink to='/' color="inherit" href="#">
         Home
-      </NavLink>
-      <NavLink to='/about-me' color="inherit" href="#">
-        About Me
       </NavLink>
       <NavLink to='/tech' color="inherit" href="#">
         Tech Gallery
