@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from './Card'
-import Iframe from 'react-iframe'
+// import Iframe from 'react-iframe'
  
 export default function ReactContainer() {
     return (
