@@ -4,7 +4,7 @@ export default function Podcast() {
     return (
         <div>
             <br/><br/><br/><br/><br/>
-            <h1>Podcast</h1>
+            <h1>Coming Soon!</h1>
         </div>
     )
 }

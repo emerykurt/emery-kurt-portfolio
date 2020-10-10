@@ -4,7 +4,7 @@ export default function Blog() {
     return (
         <div>
             <br/><br/><br/><br/><br/>
-            <h1>Blog</h1>
+            <h1>Coming Soon!</h1>
         </div>
     )
 }

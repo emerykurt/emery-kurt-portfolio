@@ -4,7 +4,7 @@ export default function Makeup() {
     return (
         <div>
             <br/><br/><br/><br/><br/>
-            <h1>Makeup</h1>
+            <h1>Coming Soon!</h1>
         </div>
     )
 }
