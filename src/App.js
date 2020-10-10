@@ -15,7 +15,7 @@ function App() {
       <Container maxWidth="md" style={{ background: 'rgb(255,255,255, 0.65)', boxShadow: '0 0 5px 5px rgb(255,255,255, 0.65)'}}>
       <Nav />
       <Switch>
-        <Route exact path='/'><LandingPage/></Route>
+        <Route exact path='/'><LandingPage /></Route>
         <Route exact path='/tech'><Tech/></Route>
         <Route exact path='/makeup'><Makeup/></Route>
         <Route exact path='/blog'><Blog/></Route>
