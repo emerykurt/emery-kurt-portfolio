@@ -2,6 +2,7 @@ import React from 'react'
 import ReactPlayer from 'react-player';
 import video from './Wedding/media/styledShoot.mp4'
 import { makeStyles } from '@material-ui/core/styles';
+import CardMedia from '@material-ui/core/CardMedia';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
@@ -48,7 +49,9 @@ export default function Video() {
                 </Typography>
                 </CardContent>
             </div>
+            <CardMedia>
             <ReactPlayer playing url={video} controls volume loop />
+            </CardMedia>
         </Card>
     )
 }
