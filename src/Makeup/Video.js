@@ -42,7 +42,7 @@ export default function Video() {
             <div className={classes.details}>
                 <CardContent className={classes.content} style={{ background: 'rgb(255,255,255, 0.2)', boxShadow: '0 0 5px 5px rgb(255,255,255, 0.2)'}}>
                 <Typography component="h5" variant="h5" >
-                    Artistry Feature
+                    Artistry Featured
                 </Typography>
                 <Typography variant="subtitle1" >
                     The Carlyle | Atlanta
