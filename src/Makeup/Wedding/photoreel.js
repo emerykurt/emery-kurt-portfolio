@@ -41,8 +41,7 @@ export default function SingleLineGridList() {
     // debugger
   return (
     <div className={classes.root}>
-      <GridList className={classes.gridList} cols={2.5} style={{ width
-        : '1000px'}}>
+      <GridList className={classes.gridList} cols={2.5} >
         {imgArr.map((tile) => (
           <GridListTile key={tile} style={{ background: 'rgb(255,255,255, 0.65)', height: '500px'}}>
             <img src={tile} alt="wedding" />
