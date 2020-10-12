@@ -48,7 +48,7 @@ export default function Video() {
                 </Typography>
                 </CardContent>
             </div>
-            <ReactPlayer playing url={video} />
+            <ReactPlayer playing url={video} controls volume loop />
         </Card>
     )
 }
