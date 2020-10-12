@@ -3,17 +3,17 @@
   "name": "Emery K Portfolio",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "./favicon.ico",
       "sizes": "48x48",
       "type": "image/x-icon"
     },
     {
-      "src": "favicon.ico",
+      "src": "./favicon.ico",
       "type": "image/x-icon",
       "sizes": "48x48"
     },
     {
-      "src": "favicon.ico",
+      "src": "./favicon.ico",
       "type": "image/x-icon",
       "sizes": "48x48"
     }
