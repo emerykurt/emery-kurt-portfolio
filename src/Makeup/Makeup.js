@@ -1,19 +1,24 @@
 import React from 'react';
-import ReactPlayer from 'react-player';
-import video from './Wedding/media/styledShoot.mp4'
+import Video from './Video'
 import WedShoot from './Wedding/Wedding'
+import Sky from './SkyPhotoshoot/Sky'
+import Carter from './CarterPhotoshoot/Carter'
 
 export default function Makeup() {
     return (
         <div style={{
-            position: 'absolute', left: '50%', top: '50%',
-            transform: 'translate(-50%, -50%)'
+            position: 'absolute', left: '50%', top: '20%',
+            transform: 'translate(-50%, 0%)'
         }}>
-            <br/><br/><br/><br/><br/><br/>
-            <ReactPlayer align= 'center' playing url={video} />
             <br/><br/><br/>
+            <Video/>
+            <br/><br/><br/><br/><br/><br/>
             <WedShoot />
+            <br/><br/><br/><br/><br/><br/>
+            <Sky/>
+            <br/><br/><br/><br/><br/><br/>
+            <Carter/>
+            <br/><br/><br/>
         </div>
     )
 }
-// https://youtu.be/7gimJVxNs1M
