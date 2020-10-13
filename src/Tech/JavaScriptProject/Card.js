@@ -32,13 +32,13 @@ export default function MediaControlCard() {
           <Typography component="h5" variant="h5">
             Company Click 
           </Typography>
-          <Typography variant="subtitle1" color="textSecondary">
+          <Typography variant="subtitle2" color="textSecondary">
             JavaScript ES6 with Rails API
           </Typography>
           <Typography className={classes.details} style={{ width: '500px'}} variant="p" fontWeight="fontWeightMedium">
             Company Click repository is a complication of an API and Frontend put together. The frontend was created with JavaScript ES6. The backend was created with Ruby on Rails The bootstrap template is provided by <a href="http://templated.co">Templated</a>. The template is released under the <a href="http://templated.co/license">Creative Commons Attribution</a> license.
           </Typography><br/><br/>
-          <CardMedia className={classes.cover}>
+          <CardMedia >
           <iframe width="560" height="315" src="https://www.youtube.com/embed/fIenuzVe_M4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title='JavaScript Project'/>
           </CardMedia>
           <IconButton 

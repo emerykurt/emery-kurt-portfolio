@@ -1,12 +1,12 @@
 import React from 'react'
 import Typography from '@material-ui/core/Typography'
-import ReactContainer from './ReactProject/ReactContainer'
-import RailsContainer from './RailsProject/RailsContainer'
-import JavaScriptContainer from './JavaScriptProject/JavaScriptContainer'
+import ReactContainer from './ReactProject/Card'
+import RailsContainer from './RailsProject/Card'
+import JavaScriptContainer from './JavaScriptProject/Card'
 
 export default function Tech() {
     return (
-        <div >
+        <div align='center'>
             <br/><br/>
             <Typography variant= 'h2'>Tech Gallery</Typography>
             <br/><br/><br/><br/>

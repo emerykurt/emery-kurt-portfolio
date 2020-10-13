@@ -32,13 +32,13 @@ export default function MediaControlCard() {
           <Typography component="h5" variant="h5">
             BlackIn ATL
           </Typography>
-          <Typography variant="subtitle1" color="textSecondary">
+          <Typography variant="subtitle2" color="textSecondary">
             Ruby on Rails 
           </Typography>
           <Typography className={classes.details} variant="p" style={{ width: '500px'}} fontWeight="fontWeightMedium">
             BlackIn Atl is a directory for all black owned restaurants in Atlanta. The app will give not only the restaurant's info, but link you to the owner's info.  
           </Typography><br/><br/>
-          <CardMedia className={classes.cover}>
+          <CardMedia >
           <iframe width="560" height="315" src="https://www.youtube.com/embed/XQedyWHkFCY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title='Rails Project'/>
           </CardMedia>
           <IconButton onClick={ () => { window.open('https://github.com/emerykurt/blackinatlapp', '_blank') }}>
