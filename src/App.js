@@ -13,7 +13,6 @@ function App() {
   return (
     <Router>
       <Container 
-        maxWidth="lg" 
         style={{ 
           background: 'rgb(187,188,189, 0.6)', 
           boxShadow: '0 0 15px 15px rgb(187,188,189, 0.6)'}}>
