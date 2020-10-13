@@ -12,9 +12,20 @@ import Zoom from '@material-ui/core/Zoom';
 const useStyles = makeStyles((theme) => ({
     root: {
       position: 'fixed',
+      flexWrap: 'wrap',
       bottom: theme.spacing(2),
       right: theme.spacing(2),
     },
+    link: {
+      display: 'flex',
+      overflowX: 'auto',
+      whiteSpace: 'wrap',
+      position: 'fixed',
+      padding: '10px',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+    }
   }));
   
   function ScrollTop(props) {
@@ -50,12 +61,12 @@ const useStyles = makeStyles((theme) => ({
 
 
 export default function NavBar() {
+  
     return (
         <React.Fragment >
             <CssBaseline />
-            <Toolbar id="back-to-top-anchor"  style={{ background: 'rgb(187,188,189, 0)'}}>
-              <NavLinks  />
-            </Toolbar>
+            <NavLinks />
+            <Toolbar id="back-to-top-anchor" />
             <ScrollTop>
             <Fab style={{ background: 'linear-gradient(to bottom, #808080 0%, #bbbcbd 100%'}}  size="medium" aria-label="scroll back to top">
             <KeyboardArrowUpIcon />

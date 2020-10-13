@@ -1,8 +1,8 @@
 import React from 'react';
 import Video from './Video'
-import WedShoot from './Wedding/Wedding'
-import Sky from './SkyPhotoshoot/Sky'
-import Carter from './CarterPhotoshoot/Carter'
+import Wedding from './Wedding/photoreel'
+import Sky from './SkyPhotoshoot/photoreel'
+import Carter from './CarterPhotoshoot/photoreel'
 
 export default function Makeup() {
     return (
@@ -10,7 +10,7 @@ export default function Makeup() {
             <br/><br/><br/>
             <Video/>
             <br/><br/><br/><br/><br/><br/>
-            <WedShoot />
+            <Wedding />
             <br/><br/><br/><br/><br/><br/>
             <Sky/>
             <br/><br/><br/><br/><br/><br/>

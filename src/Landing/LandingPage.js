@@ -9,7 +9,7 @@ export default function LandingPage() {
     return (
         <div align='center'>
             <br/><br/><br/><br/>
-            <Container style={{ background: 'rgb(187,188,189, 0)', boxShadow: '0 0 15px 15px rgb(187,188,189, 0)'}}>
+            <Container maxWidth="sm" style={{ background: 'rgb(187,188,189, 0)', boxShadow: '0 0 15px 15px rgb(187,188,189, 0)'}}>
             <br/><br/>
             <Typography variant= 'h1'>Welcome</Typography><br/><br/><br/>
             <Typography variant="p" style={{ fontSize: '21px'}} fontWeight="fontWeightMedium">
