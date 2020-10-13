@@ -6,7 +6,7 @@ import Carter from './CarterPhotoshoot/Carter'
 
 export default function Makeup() {
     return (
-        <div align='center'>
+        <div >
             <br/><br/><br/>
             <Video/>
             <br/><br/><br/><br/><br/><br/>

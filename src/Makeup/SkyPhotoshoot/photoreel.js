@@ -20,21 +20,14 @@ const imgArr = [
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    display: 'flex',
-    flexWrap: 'wrap',
+    display: 'grid',
+    flexWrap: 'nowrap',
     justifyContent: 'space-around',
-    overflow: 'hidden',
+    overflow: 'visible',
   },
   gridList: {
     flexWrap: 'nowrap',
     transform: 'translateZ(0)',
-  },
-  title: {
-    color: theme.palette.primary.light,
-  },
-  titleBar: {
-    background:
-      'linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)',
   },
 }));
 
@@ -43,9 +36,9 @@ export default function SingleLineGridList() {
     // debugger
   return (
     <div className={classes.root}>
-      <GridList className={classes.gridList} cols={2.5} >
+      <GridList className={classes.gridList} cols={1.5} >
         {imgArr.map((tile) => (
-          <GridListTile key={tile} style={{ background: 'rgb(255,255,255, 0.65)', height: '500px'}}>
+          <GridListTile key={tile} style={{ background: 'rgb(255,255,255, 0.65)', minHeight: '100vh'}}>
             <img src={tile} alt="wedding" />
           </GridListTile>
         ))}

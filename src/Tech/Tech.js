@@ -6,9 +6,9 @@ import JavaScriptContainer from './JavaScriptProject/JavaScriptContainer'
 
 export default function Tech() {
     return (
-        <div align='center'>
+        <div >
             <br/><br/>
-            <Typography style={{fontSize: '40px'}}>Tech Gallery</Typography>
+            <Typography variant= 'h2'>Tech Gallery</Typography>
             <br/><br/><br/><br/>
             <ReactContainer /><br/><br/><hr/><br/><br/>
             <JavaScriptContainer/><br/><br/><hr/><br/><br/>

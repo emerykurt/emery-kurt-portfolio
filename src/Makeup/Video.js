@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
     },
     details: {
       display: 'flex',
-      flexDirection: 'column',
+      flexWrap: 'wrap',
     },
     content: {
       flex: '1 0 auto',
@@ -29,19 +29,17 @@ export default function Video() {
         align='center' 
         className={classes.root} 
         style={{ background: 'rgb(255,255,255, 0.15)', boxShadow: '0 0 15px 15px rgb(255,255,255, 0.15)'}}>
-            <div className={classes.details}>
-                <CardContent className={classes.content} >
-                <Typography component="h5" variant="h5" >
-                    Artistry Featured
-                </Typography>
-                <Typography variant="subtitle1" >
-                    The Carlyle | Atlanta
-                </Typography>
-                </CardContent>
-            </div>
-            <CardMedia>
-            <ReactPlayer playing url={video} controls volume loop />
-            </CardMedia>
+          <CardContent className={classes.content} >
+          <Typography variant="h5" >
+              Featured Artistry
+          </Typography>
+          <Typography variant="subtitle1" >
+              The Carlyle | Atlanta
+          </Typography><br/>
+          <CardMedia>
+          <ReactPlayer playing url={video} controls volume loop />
+          </CardMedia>
+          </CardContent>
         </Card>
     )
 }

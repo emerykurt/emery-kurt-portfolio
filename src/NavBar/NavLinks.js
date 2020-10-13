@@ -9,7 +9,7 @@ export default function NavLinks() {
     <Breadcrumbs 
     maxItems={2} 
     aria-label="breadcrumb" 
-    style={{ background: 'rgb(146, 148, 148, 0.7)'}}>
+    style={{ background: 'rgb(146, 148, 148, 0)'}}>
       <NavLink to='/' color="inherit" href="#">
         Home
       </NavLink>

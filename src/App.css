@@ -42,8 +42,9 @@ body {
   overflow-x: auto;
   white-space: wrap;
   padding: 10px;
-  position: 'absolute'; 
-  transform: 'translate(-50%, 0%)';
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 
