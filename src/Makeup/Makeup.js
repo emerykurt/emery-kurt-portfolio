@@ -7,13 +7,12 @@ import Carter from './CarterPhotoshoot/photoreel'
 export default function Makeup() {
     return (
         <div >
-            <br/><br/><br/>
             <Video/>
             <br/><br/><br/><br/><br/><br/>
             <Wedding />
-            <br/><br/><br/><br/><br/><br/>
+            <br/><br/><br/>
             <Sky/>
-            <br/><br/><br/><br/><br/><br/>
+            <br/><br/><br/>
             <Carter/>
             <br/><br/><br/>
         </div>

@@ -37,7 +37,7 @@ export default function Video() {
               The Carlyle | Atlanta
           </Typography><br/>
           <CardMedia>
-          <ReactPlayer playing url={video} controls volume loop />
+          <ReactPlayer height='auto' playing url={video} controls volume loop />
           </CardMedia>
           </CardContent>
         </Card>
