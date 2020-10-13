@@ -38,9 +38,9 @@ export default function MediaControlCard() {
   const classes = useStyles();
 
   return (
-    <Card className={classes.root} style={{ background: 'rgb(255,255,255, 0.85)', boxShadow: '0 0 5px 5px rgb(255,255,255, 0.65)'}}>
+    <Card className={classes.root} style={{ background: 'rgb(255,255,255, 0.5)', boxShadow: '0 0 15px 15px rgb(255,255,255, 0.5)'}}>
       <div className={classes.details}>
-        <CardContent className={classes.content} style={{width: '300px'}}>
+        <CardContent className={classes.content} >
           <Typography component="h5" variant="h5">
             Company Click 
           </Typography>

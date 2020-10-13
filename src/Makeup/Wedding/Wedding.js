@@ -4,7 +4,7 @@ import Photos from './photoreel'
 export default function Wedding() {
     return (
         <div>
-           <Photos /> 
+            <Photos /> 
         </div>
     )
 }

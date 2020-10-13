@@ -6,10 +6,7 @@ import Carter from './CarterPhotoshoot/Carter'
 
 export default function Makeup() {
     return (
-        <div style={{
-            position: 'absolute', left: '50%', top: '20%',
-            transform: 'translate(-50%, 0%)'
-        }}>
+        <div align='center'>
             <br/><br/><br/>
             <Video/>
             <br/><br/><br/><br/><br/><br/>

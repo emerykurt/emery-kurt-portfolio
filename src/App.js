@@ -12,8 +12,12 @@ import Container from '@material-ui/core/Container';
 function App() {
   return (
     <Router>
-      <Container maxWidth="md" style={{ background: 'rgb(255,255,255, 0.65)', boxShadow: '0 0 5px 5px rgb(255,255,255, 0.65)'}}>
-      <Nav />
+      <Container 
+        maxWidth="lg" 
+        style={{ 
+          background: 'rgb(187,188,189, 0.6)', 
+          boxShadow: '0 0 15px 15px rgb(187,188,189, 0.6)'}}>
+      <Nav /><br/>
       <Switch>
         <Route exact path='/'><LandingPage /></Route>
         <Route exact path='/tech'><Tech/></Route>

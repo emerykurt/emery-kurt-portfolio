@@ -37,4 +37,13 @@
   }
 }
 
+body {
+  display: flex;
+  overflow-x: auto;
+  white-space: wrap;
+  padding: 10px;
+  position: 'absolute'; 
+  transform: 'translate(-50%, 0%)';
+}
+
 
