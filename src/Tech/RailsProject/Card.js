@@ -21,7 +21,7 @@ export default function MediaControlCard() {
             Ruby on Rails 
           </Typography>
           <Typography fontWeight="fontWeightMedium">
-            BlackIn Atl is a directory for all black owned restaurants in Atlanta. The app will give not only the restaurant's info, but link you to the owner's info.  
+            BlackIn Atl is a directory for all black owned restaurants in Atlanta. The app will give the restaurant's info, along with linking you to the owner's info.  
           </Typography><br/><br/>
           <div class='video-container'>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/XQedyWHkFCY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title='Rails Project'/>

@@ -21,7 +21,7 @@ export default function MediaControlCard() {
             React/Redux with Rails API & Material UI
           </Typography>
           <Typography fontWeight="fontWeightMedium">
-            Tech Tribe is a React/Redux app that utilizes Material UI for styling. The inspiration comes from graduating FlatIron School and creating a network space for those graduating or alumni.
+            Tech Tribe is a React/Redux app that utilizes Material UI for styling. The inspiration comes from graduating FlatIron School students. This app creates a network space for those graduating and alumni.
           </Typography><br/><br/>
           <div class='video-container'>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/6ZTHB4hdLxw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title='React Project'/>

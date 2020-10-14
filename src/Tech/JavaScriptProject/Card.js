@@ -20,7 +20,7 @@ export default function MediaControlCard() {
             JavaScript ES6 with Rails API
           </Typography>
           <Typography fontWeight="fontWeightMedium">
-            Company Click repository is a complication of an API and Frontend put together. The frontend was created with JavaScript ES6. The backend was created with Ruby on Rails The bootstrap template is provided by <a href="http://templated.co">Templated</a>. The template is released under the <a href="http://templated.co/license">Creative Commons Attribution</a> license.
+            Company Click is a compilation of an API and Frontend put together. The frontend was created with JavaScript ES6. The backend was created with Ruby on Rails. The bootstrap template is provided by <a href="http://templated.co">Templated</a>. The template is released under the <a href="http://templated.co/license">Creative Commons Attribution</a> license.
           </Typography><br/><br/>
           <div class='video-container'>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/fIenuzVe_M4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title='JavaScript Project'/>
