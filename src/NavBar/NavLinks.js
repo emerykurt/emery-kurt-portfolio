@@ -30,12 +30,12 @@ export default function NavLinks() {
         <NavLink to='/makeup' color="inherit" href="#">
           Makeup Gallery
         </NavLink>
-        <NavLink to='/blog' color="inherit" href="#">
+        {/* <NavLink to='/blog' color="inherit" href="#">
           Blog Gallery
         </NavLink>
         <NavLink to='/podcast' color="inherit" href="#">
           Podcast
-        </NavLink>
+        </NavLink> */}
     </Breadcrumbs>
     </div>
   );
